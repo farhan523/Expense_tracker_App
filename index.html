@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+
+        <!-- header -->
+        <div class="header">
+            <h1>Expense tracker app by farhan</h1>
+            <div>
+                <h2>YOUR BALANCE</h2>
+            <h1>$ <span id="total">0.00</span></h1>
+            </div>
+        </div>
+
+        <!-- income-expense -->
+
+        <div class="inc-exp">
+            <div class="income">
+                <h3>INCOME</h3>
+                <p id="z1">0</p>
+            </div>
+            <div class="expense">
+                <h3>EXPENSE</h3>
+                <p id="z2">0</p>
+            </div>
+        </div>
+
+        <!-- History -->
+
+        <div class="history">
+            <h2>History</h2>
+            <hr>
+            <div class="history-details">
+              
+            </div>
+        </div>
+
+        <!-- New Transection Container -->
+
+        <div class="transection-container">
+            <h2>Add new Transection</h2>
+            <hr>
+            <form action="">
+                <label for="">Text</label><br>
+                <input type="text" id="detail" placeholder="enter text..."><br>
+                <label for="" >Amount <br>(negative-expenses positive-income)</label><br>
+                <input type="number" id="amount" placeholder="enter amount">
+                <input type="submit" id="btn" value="Add Transection">
+            </form>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
